@@ -18,4 +18,6 @@ public class Dwarf extends Fighter {
     public IWeapon getWeapon() {
         return this.weapon;
     }
+
+
 }

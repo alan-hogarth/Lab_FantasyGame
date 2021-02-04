@@ -3,12 +3,12 @@ package characters.enemies;
 import characters.players.Player;
 import weapons.IWeapon;
 
-public class Orc extends Player {
+public class Orc extends Enemy {
 
     private IWeapon weapon;
 
     public Orc(String name, int health, IWeapon weapon) {
-        super(name, health);
+        super(health);
         this.weapon = weapon;
     }
 

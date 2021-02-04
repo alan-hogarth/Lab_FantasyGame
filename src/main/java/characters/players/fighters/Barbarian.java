@@ -8,10 +8,17 @@ public class Barbarian extends Fighter {
     private IWeapon weapon;
 
     public Barbarian(String name, int health, IWeapon weapon) {
-        super(name, health, IWeapon weapon);
+        super(name, health);
         this.weapon = weapon;
     }
 
+    public void setWeapon(IWeapon weapon){
+        this.weapon = weapon;
+    }
+
+    public IWeapon getWeapon() {
+        return this.weapon;
+    }
 
 
 }
