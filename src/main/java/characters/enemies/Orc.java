@@ -7,7 +7,7 @@ public class Orc extends Enemy {
 
     private IWeapon weapon;
 
-    public Orc(String name, int health, IWeapon weapon) {
+    public Orc(int health, IWeapon weapon) {
         super(health);
         this.weapon = weapon;
     }

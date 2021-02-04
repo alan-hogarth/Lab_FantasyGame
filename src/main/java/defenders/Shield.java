@@ -4,13 +4,13 @@ import characters.players.protectors.IDefend;
 
 public class Shield implements IDefend {
 
-    public Shield(){
-        this.
+    private int defendValue;
 
+    public Shield(){
+        this.defendValue = 10;
     }
 
-
     public int defend() {
-        return 0;
+        return defendValue;
     }
 }

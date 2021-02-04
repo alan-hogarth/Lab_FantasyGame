@@ -9,7 +9,6 @@ public class Wizard extends Mage{
     public Wizard(String name, int health, ISpell spell){
         super(name, health);
         this.spell = spell;
-
     }
 
     public void setSpell(ISpell spell) {
